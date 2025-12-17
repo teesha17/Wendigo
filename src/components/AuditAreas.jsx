@@ -75,7 +75,7 @@ const Card = ({
 
 export default function AuditAreas() {
   return (
-    <section className="w-full bg-[#f5f9ff] px-6 py-6">
+    <section className="w-full px-6 py-6">
       <div className="mx-auto grid max-w-3xl grid-cols-2 gap-8">
 
         {/* Row 1 */}

@@ -3,7 +3,7 @@ export default function FinalCTASection() {
     <section className="relative w-full overflow-hidden">
 
       {/* CTA GRADIENT SECTION */}
-      <div className="relative bg-[linear-gradient(to_bottom,#EEF6FF_0%,#3A78A6_70%)] pt-32 pb-40">
+      <div className="relative bg-[linear-gradient(to_bottom,#f5f9ff_0%,#3A78A6_70%)] pt-32 pb-40">
   
   {/* smooth fade into footer */}
   <div className="pointer-events-none absolute inset-x-0 bottom-0 h-48 bg-gradient-to-b from-transparent to-[#020A14]" />

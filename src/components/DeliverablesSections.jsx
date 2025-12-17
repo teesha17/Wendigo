@@ -89,6 +89,9 @@ export default function DeliverablesSection() {
 
         </div>
       </div>
+            {/* fade dots into next section */}
+<div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-[#f5f9ff] z-20" />
+
     </section>
   );
 }

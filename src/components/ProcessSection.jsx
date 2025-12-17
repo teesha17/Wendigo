@@ -2,6 +2,9 @@ export default function ProcessSection() {
   return (
     <section className="relative min-h-screen bg-[#f5f9ff] overflow-hidden">
       {/* grid background */}
+      {/* smooth fade-in for grid */}
+<div className="pointer-events-none absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-[#f5f9ff] to-transparent z-10" />
+
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#e5efff_1px,transparent_1px),linear-gradient(to_bottom,#e5efff_1px,transparent_1px)] bg-[size:32px_32px]" />
 
       {/* content */}

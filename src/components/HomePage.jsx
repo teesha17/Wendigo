@@ -5,7 +5,8 @@ export default function HomePage() {
     const [activeNav, setActiveNav] = useState("Services");
 
     return (
-        <div className="min-h-screen bg-grid font-sans">
+        <div className="relative min-h-screen bg-grid font-sans overflow-hidden">
+
             {/* Top Navigation */}
             <header className="flex justify-center pt-6">
                 <div className="w-[92%] max-w-7xl bg-gradient-to-r from-[#061a2e] to-[#0b2a4a] rounded-full px-6 py-3 flex items-center justify-between shadow-lg">
@@ -95,7 +96,7 @@ export default function HomePage() {
                     </p>
 
 
-                    <button className="mt-8 inline-flex items-center gap-3 bg-gradient-to-r from-[#4da3ff] to-[#2f7cf6] text-white px-6 py-3 rounded-full font-medium shadow-lg">
+                    <button className="mt-8 inline-flex items-center gap-3 bg-[#2f7cf6] text-white px-6 py-3 rounded-full font-medium shadow-lg">
                         Take Assessment
                         <span className="w-5 h-5 rounded-full 
   bg-white/20 
@@ -121,6 +122,8 @@ export default function HomePage() {
                     </div>
                 </div>
             </main>
+            
+<div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-[#f5f9ff] z-20" />
         </div>
     );
 }
